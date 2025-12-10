@@ -2,7 +2,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { Section } from "../types";
 
 // Initialize Gemini with the API key from environment variables
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyANOV9umdYEKoAQwyf3nG5ZlMSvpArCMcM" });
 
 export const generateLandingPageContent = async (topic: string): Promise<Section[]> => {
   const prompt = `
